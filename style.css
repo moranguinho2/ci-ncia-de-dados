@@ -7,21 +7,21 @@
     --fonts: "Bebas Neue", sans-serif;
 }
 
-body {
+body{
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-family: var(--fonts);
+    font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
 
-header {
+header{
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
 
-h1 {
+h1{
     font-size: 2rem;
     color: var(--bg-color);
     font-weight: 700;
@@ -40,13 +40,13 @@ nav a {
     font-size: 1.2rem;
 }
 
-nav a:hover {
-    text-decoration: underline;
-    transform: scale(0.90);
-    transition: transform 0.1s;
+nav a:hover{
+text-decoration: underline;
+transform: scale(0.90);
+transition: transform 0.1s;
 }
 
-.graficos-container{
+.graficos-container {
     margin: 5rem;
 }
 
@@ -57,18 +57,18 @@ nav a:hover {
     border: var(--secondary-color) solid 2px;
 }
 
-span{
+span {
     font-weight: bold;
     color: var(--secondary-color);
 }
 
-footer {
+footer{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     color: var(--bg-color);
-    width: 100%;
+    width: 100;
     height: 3rem;
     margin-top: 2rem;
 }
